@@ -8,7 +8,7 @@
 - 使用第三方API解析预抓取网站验证码
 - 登录完成后通过正则表达式匹配出所需数据
 - 以php-cli模式运行: php login/index.php
-- <a href="http://www.baidu.com">代码参考</a>
+- <a href="https://github.com/lzy309/democode/blob/master/login/index.php">代码参考</a>
 - 运行方式:以cli模式运行 `php login/index.php`
 
  
@@ -39,6 +39,8 @@
 
 `$domain->setDomainStatus('baidu.com', true)`
 
+- <a href="https://github.com/lzy309/democode/blob/master/domain/Domain.php">代码参考</a>
+
 
 
 ## 需求3:域名品相分析
@@ -46,6 +48,10 @@
 
 解析:主要通过正则判断是否为包含数字和字母,域名如果只包含字母通过分割字符串提取拼音方来判断为几拼,
 通过判断字符串是否包含数字、字母、- 来判断是否为杂米字符串
+
+- <a href="https://github.com/lzy309/democode/blob/master/domain/DomainCheck.php">代码参考</a>
+
+
     
   
 
